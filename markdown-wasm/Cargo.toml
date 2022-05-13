@@ -11,3 +11,9 @@ pulldown-cmark = "0.9.1"
 # Facilitating high-level interactions between
 # Wasm modules and JavaScript using wasm-bindgen
 wasm-bindgen = "0.2.80"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
