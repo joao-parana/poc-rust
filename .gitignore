@@ -1,3 +1,8 @@
 .idea/
 main
 
+
+
+# Added by cargo
+
+/target
