@@ -4,7 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# wasmtime = "0.27.0"
+# wasmtime-rust = "0.27.0"
+#wasmtime_interface_types = "*"
+failure = "0.1.8"
+anyhow = "1.0.57"
+
 
 [[bin]]
 name = "rust-simple"
-path = "src/main.rs"
+path = "src/simple.rs"
