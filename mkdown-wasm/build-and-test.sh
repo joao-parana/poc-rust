@@ -1,3 +1,7 @@
+#!/bin/bash
+
+rm -rf target pkg/
+
 cargo check --quiet
 cargo build --release
 WASM_INTERFACE_TYPES=1 wasm-pack build
