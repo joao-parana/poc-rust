@@ -34,6 +34,13 @@ Você verá:
 <p>I am example markdown for this demo!</p>
 ```
 
+Também podemos usar `--invoke`, entretanto ficamos limitados a passagem de 
+parâmetros, que por enquanto tem suporte limitado.
+
+```shell
+wasmtime  --invoke render_mkdn_t1  rust_wasi_markdown_parser.wasm
+```
+
 Neste link https://docs.wasmtime.dev/wasm-rust.html mostra como criar 
 WebAssembly a partir de codigo Rust, tanto para aplicacao quanto para lib (biblioteca).
 

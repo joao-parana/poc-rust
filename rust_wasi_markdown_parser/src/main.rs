@@ -49,3 +49,8 @@ pub fn render_markdown(markdown: String) -> String {
 pub extern fn render_mkdn(markdown: String) -> String {
     render_markdown(markdown)
 }
+
+#[no_mangle]
+pub extern fn render_mkdn_t1() {
+    println!("resulting markdown: {}", render_markdown("# Hello Python".to_string()));
+}
