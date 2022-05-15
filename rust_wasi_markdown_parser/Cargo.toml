@@ -8,4 +8,3 @@ edition = "2021"
 [dependencies]
 structopt = "0.3.26"
 pulldown-cmark = "0.9.1"
-
