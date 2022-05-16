@@ -8,6 +8,19 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
+        assetModuleFilename: 'images/[hash][ext][query]'
+    },
+    module: {
+      rules: [
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.(png|svg|jpg|jpeg|gif)$/i,
+          type: 'asset/resource',
+        }
+      ]
     },
     plugins: [
         new HtmlWebpackPlugin(),

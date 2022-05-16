@@ -11,3 +11,24 @@ crate-type = ["cdylib"]
 [dependencies]
 pulldown-cmark = "0.9.1"
 wasm-bindgen = "0.2.80"
+
+[dependencies.js-sys]
+version = "0.3.57"
+
+[dependencies.web-sys]
+version = "0.3.57"
+features = [
+    'console',
+    'Window',
+    'Document',
+    'DocumentFragment',
+    'Node',
+    'Element',
+    'HtmlElement',
+    'HtmlSlotElement',
+    'HtmlTemplateElement',
+    'CustomElementRegistry',
+    'ShadowRoot',
+    'ShadowRootInit',
+    'ShadowRootMode',
+]
