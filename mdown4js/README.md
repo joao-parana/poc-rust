@@ -33,3 +33,4 @@ https://developer.mozilla.org/en-US/docs/Web/API/Window
 
 https://rustwasm.github.io/wasm-bindgen/api/js_sys/
 
+https://webpack.js.org/guides/asset-modules/#custom-output-filename 
