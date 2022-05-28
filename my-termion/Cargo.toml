@@ -1,0 +1,8 @@
+[package]
+name = "my-termion"
+version = "0.1.0"
+authors = ["joao-parana"]
+edition = "2021"
+
+[dependencies]
+termion = "1.5.6"
