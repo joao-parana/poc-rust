@@ -1,0 +1,5 @@
+[dependencies]
+ron = "0.7"
+serde = { version = "1", features = ["derive"] }
+
+
