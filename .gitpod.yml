@@ -1,0 +1,12 @@
+# docker images
+# REPOSITORY              TAG                   IMAGE ID          SIZE
+# gitpod/workspace-rust   2022-07-26-05-11-39   63656200aa84      2.46GB
+image:
+  file: .gitpod.Dockerfile
+
+# List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+
+# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
+# ports:
+#   - port: 3000
+#    onOpen: open-preview
