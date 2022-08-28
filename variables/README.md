@@ -112,3 +112,19 @@ cargo run src/main.rs
    |
    = note: `SECONDS_IN_MINUTE` must be defined only once in the value namespace of this block
 ```
+
+## Usando Linter no Rust
+
+Instalando:
+
+```bash
+rustup component add clippy
+```
+
+Usando:
+
+```bash
+cargo clippy
+```
+
+Você verá todas as dicas de warnings e erros existentes no programa.
