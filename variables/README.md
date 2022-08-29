@@ -1,5 +1,7 @@
 # rust variables
 
+[https://www.youtube.com/watch?v=T_KrYLW4jw8&list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ&index=1](https://www.youtube.com/watch?v=T_KrYLW4jw8&list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ&index=1)
+
 ## Name Shadowing
 
 *Name Shadowing* funciona com imutáveis num dado escopo.
